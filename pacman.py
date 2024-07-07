@@ -337,7 +337,7 @@ def start_screen():
     screen.blit(icon, (WIDTH-(3/4)*WIDTH, 333))
     icon2 = pygame.image.load("pac-man.png")
     screen.blit(icon2, (515, 333))
-    new_text(screen, "Press a key to start", TITLE, 20, WIDTH/2, 350)
+    new_text(screen, "Press any key to start", TITLE, 20, WIDTH/2, 350)
     new_text(screen, "~ RIGHT ARROW to read about history ~", BLACK_BLUE, 13, 145, 30)
     new_text(screen, "~ ESC to quit ~", BLACK_BLUE, 13, 660, 30)
     new_text(screen, "Arrows to move", TITLE, 17, WIDTH/2, 450)
